@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'IBM Plex Sans Bold';
+  src: url('../font/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Medium';
+  src: url('../font/IBMPlexSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans Regular';
+  src: url('../font/IBMPlexSans-Regular.ttf');
+}
+
+body{
+  color: #141414;
+  max-width: 1440px;
+}
+
+h1{
+  font-family: 'IBM Plex Sans Bold';
+}
+
+h2{
+  font-family: 'IBM Plex Sans Medium';
+  font-size: 64px;
+}
+
+h3{
+  font-family: 'IBM Plex Sans Bold';
+  font-size: 40px;
+}
+
+h4{
+  font-family: 'IBM Plex Sans Bold';
+  font-size: 16px;
+}
+
+h5{
+  font-family: 'IBM Plex Sans Regular';
+  font-size: 12px;
+}
+
+h6{
+  font-family: 'IBM Plex Sans Bold';
+  font-size: 20px;
+}
+
+p{
+  font-family: 'IBM Plex Sans Regular';
+  font-size: 36px;
+}
+
+.h-inner{
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.c-inner{
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.pc{
+  display: block;
+}
+
+.ipad{
+  display: none;
+}
+
+.sp{
+  display: none;
+}
+
+
+
+/*  Ipad  */
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .pc{
+    display: none;
+  }
+
+  .ipad{
+    display: block;
+  }
+
+  .sp{
+    display: none;
+  }
+  .h-inner{
+    width: 685px;
+    margin: 0 auto;
+  }
+  
+  .c-inner{
+    width: 685px;
+    margin: 0 auto;
+  }
+
+}
+
+/*  SP  */
+@media screen and (max-width:767.9px) {
+
+  .pc{
+    display: none;
+  }
+
+  .ipad{
+    display: none;
+  }
+
+  .sp{
+    display: block;
+  }
+
+  .h-inner{
+    width: 580px;
+    margin: 0 auto;
+  }
+
+  .c-inner{
+    width: 580px;
+    margin: 0 auto;
+  }
+}
