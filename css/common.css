@@ -72,11 +72,11 @@ p{
   display: block;
 }
 
-.ipad{
+.sp{
   display: none;
 }
 
-.sp{
+.ipad{
   display: none;
 }
 
@@ -96,12 +96,12 @@ p{
     display: none;
   }
   .h-inner{
-    width: 685px;
+    width: 89.193vw;
     margin: 0 auto;
   }
   
   .c-inner{
-    width: 685px;
+    width: 89.193vw;
     margin: 0 auto;
   }
 
@@ -123,12 +123,12 @@ p{
   }
 
   .h-inner{
-    width: 580px;
+    width: 90.625vw;
     margin: 0 auto;
   }
 
   .c-inner{
-    width: 580px;
+    width: 90.625vw;
     margin: 0 auto;
   }
 }
